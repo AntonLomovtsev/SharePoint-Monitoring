@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Properties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Performance_Monitor CPU="98" RAM="5"/>
+	<Configure_SendMail SMTP="smtp.company.corp" MailFrom="login@domen.ru" MailTo="login@domen.ru" Subject="SharePoint"/>
+	<Services>
+		<Service>SharePoint Administration</Service>		
+		<Service>SharePoint Server Search 15</Service>
+		<Service>SharePoint Timer Service</Service>
+	</Services>
+	<AppPools>
+		<AppPool>SharePoint - 80</AppPool>
+		<AppPool>SharePoint Central Administration v4</AppPool>		
+		<AppPool>02a93b42648d4e1d976f92dd377eacc7</AppPool>
+		<AppPool>063a9591f32f431e9cfdc715cd55c640</AppPool>
+		<AppPool>733a355e77cd4029959f2b3bf546e6e4</AppPool>
+		<AppPool>d88f3fad8e6140bc9cec2a0917d2ef7d</AppPool>
+		<AppPool>SecurityTokenServiceApplicationPool</AppPool>
+	</AppPools>
+	<Addresses PingTimeOut="2500">		
+		<Address>www.company.Corp</Address>
+	</Addresses>
+	<HDD>
+		<disc TotalFreeSpace="0" PercentageFreeSpace="5">C:\</disc>
+		<disc TotalFreeSpace="0" PercentageFreeSpace="15">F:\</disc>		
+	</HDD>
+	<Links>
+		<URL ResponseTime="10">https://www.company.corp/</URL>		
+	</Links>	
+</Properties>
